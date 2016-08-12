@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Ip Hash负载均衡算法
+ * @author liqian
+ *
+ */
 public class IpHashTest {
 	
 	static Map<String, Integer> serverWeigthMap = new HashMap<String, Integer>();

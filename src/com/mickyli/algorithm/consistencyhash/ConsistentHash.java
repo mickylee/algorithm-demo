@@ -6,13 +6,9 @@ import java.util.TreeMap;
 
 /**
  * 
- * 一致性Hash算法 算法详解：http://blog.csdn.net/sparkliang/article/details/5279393
- * 算法实现：https://weblogs.java.net/blog/2007/11/27/consistent-hashing
- * 
  * @author liqian
- *
- * @param <T>
- *            节点类型
+ * @param <T> 节点类型
+ *            
  */
 public class ConsistentHash<T> {
 	/** Hash计算对象，用于自定义hash算法 */
